@@ -1,3 +1,86 @@
 .hidden {
   display: none;
 }
+
+#login-form {
+  padding-left: 37%;
+}
+#login-form input {
+  width: 400px;
+  height: 40px;
+  font-size: 25px;
+}
+#login-form button {
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+}
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  opacity: 80%;
+}
+
+#greeting {
+  display: flex;
+  justify-content: center;
+  font-weight: 900;
+  color: greenyellow;
+  margin-bottom: 40px;
+}
+
+#clock {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 80px;
+}
+#todo-form {
+  display: flex;
+  justify-content: center;
+}
+#todo-form input {
+  width: 680px;
+  height: 60px;
+  border-radius: 10px;
+  opacity: 50%;
+  font-size: 40px;
+}
+#todo-list {
+  width: 40%;
+  font-size: 30px;
+  color: black;
+  background-color: rgba(125, 125, 125, 0.5);
+  border-radius: 10px;
+}
+#todo-list-back {
+  display: flex;
+  justify-content: center;
+}
+#quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 40px;
+}
+
+#quote span:first-child {
+  font-size: 25px;
+  font-weight: 900;
+  display: flex;
+  margin-bottom: 10px;
+}
+#quote span:last-child {
+  font-weight: 800;
+}
+#weather {
+  font-size: 20px;
+  font-weight: 1000;
+}
